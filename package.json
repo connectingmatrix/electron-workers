@@ -11,8 +11,8 @@
     "prepublish": "in-publish && npm-run-all lint clean build || not-in-publish"
   },
   "author": {
-    "name": "BJR Matos",
-    "email": "bjrmatos@gmail.com"
+    "name": "Muhammad Abeer",
+    "email": "abeersaqib@gmail.com"
   },
   "license": "MIT",
   "keywords": [
@@ -21,11 +21,6 @@
     "workers",
     "electron spawn"
   ],
-  "homepage": "https://github.com/bjrmatos/electron-workers",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:bjrmatos/electron-workers.git"
-  },
   "dependencies": {
     "debug": "2.3.3",
     "lodash.findindex": "4.6.0",

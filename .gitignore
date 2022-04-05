@@ -30,6 +30,3 @@ bower_components
 .DS_Store
 .tmp
 .sass-cache
-
-# compiled es5 code
-lib

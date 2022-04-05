@@ -292,7 +292,7 @@ class ElectronManager extends EventEmitter {
       workerTimeout = this.options.timeout;
     }
 
-    if (worker.shouldRevive) {
+    if (worker.shouldRevive && this.options.shouldRevive) {
       debugManager(`trying to revive worker [${worker.id}]..`);
 
       worker.start((startErr) => {
